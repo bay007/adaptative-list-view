@@ -1,0 +1,24 @@
+{
+  "name": "adaptative-list-view",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  },
+  "devDependencies": {
+    "react-scripts": "0.9.5",
+    "react-tree": "git+https://github.com/occmundial/react-tree"
+  },
+  "scripts": {
+    "build-tree": "react-tree ./src 2 false",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "author": "egalicia",
+  "bugs": {
+    "url": "https://github.com/bay007/adaptative-list-view/issues"
+  }
+}
